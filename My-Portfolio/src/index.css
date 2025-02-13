@@ -71,7 +71,7 @@ a:hover {
   width: 0.4rem;
 }
 
-form
+.form
 {
   box-shadow: 0 0 40px rgb(45, 148, 162);
 }
@@ -126,4 +126,10 @@ form
 .skk
 {
   box-shadow: 0 0 20px #a16bff;
+}
+
+
+.sh
+{
+  box-shadow: 0 0 20px #005494;
 }
