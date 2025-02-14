@@ -81,7 +81,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className='w-full tsha text-center px-12 text-2xl font-semibold text-white'>
+      <div className='w-full tsha text-center px-12 text-2xl font-semibold text-white mt-[10px]'>
       I am skilled in DSA, Java, and web development, with expertise in JavaScript, React JS, and Tailwind CSS.
       </div>
     </div>
