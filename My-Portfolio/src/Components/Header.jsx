@@ -40,7 +40,7 @@ function Header()
       <div className='ml-[2rem] hidden sm:block mr-[4rem] sm:mr-[8rem] lg:mr-[12rem] xl:mr-[18rem] '><a className='text-3xl'><strong>Portfolio</strong></a></div>
       <div className={isAct === 'Home' ? "flex justify-center text-center head-t1-active":"flex justify-center text-center head-t1"} onClick={(e)=>{setAct(e.target.innerText)}}><a href={isAct !== 'Home'?"#home":"#"}>Home</a></div>
       <div className={isAct === 'Skills' ? "flex justify-center text-center head-t1-active":"flex justify-center text-center head-t1"} onClick={(e)=>{setAct(e.target.innerText)}}><Link onClick={(e)=>{setAct(e.target.innerText)}} to="skills" offset={-200}>Skills</Link></div>
-      <div className={isAct === 'Projects' ? "flex justify-center text-center head-t1-active":"flex justify-center text-center head-t1"} onClick={(e)=>{setAct(e.target.innerText)}}><a href={isAct !== 'Projects'?"#projects":"#"}>Projects</a></div>
+      <div className={isAct === 'Projects' ? "flex justify-center text-center head-t1-active":"flex justify-center text-center head-t1"} onClick={(e)=>{setAct(e.target.innerText)}}><a href="#projects">Projects</a></div>
       <div className='flex flex-row gap-2'>
         <div className='head-t2 hidden sm:flex sm:justify-center sm:items-center overflow-hidden'><a target='_blank' href='https://www.linkedin.com/in/rithwik-koul-9500131b3/'><img className = " h-[1rem]" src={img1} alt="" /></a></div>
         <div className='head-t2 hidden md:flex sm:justify-center sm:items-center overflow-hidden'><a target='_blank' href ="https://leetcode.com/u/rithwik_koul/"><img className = " h-[1.5rem] pr-1" src={img2} alt="" /></a></div>

@@ -74,14 +74,14 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center">
                 <img src={m2} className="min-w-[10rem] mb-5 mx-auto" alt="DSA" />
-                <div>FrontEnd WebDev</div>
+                <div>Front-End WebDev</div>
               </div>
             </Slider>
             </div>
           </div>
         </div>
       </div>
-      <div className='-mt-[2rem] w-full tsha text-center px-12 text-2xl font-semibold text-white'>
+      <div className='w-full tsha text-center px-12 text-2xl font-semibold text-white'>
       I am skilled in DSA, Java, and web development, with expertise in JavaScript, React JS, and Tailwind CSS.
       </div>
     </div>

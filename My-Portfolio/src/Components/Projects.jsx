@@ -8,7 +8,7 @@ import { Cursor } from 'react-simple-typewriter'
 
 const Projects = () => {
   return (
-    <div className='bg-[#000000] sha p-8 pt-20'>
+    <div className='bg-[#000000] sha p-8 pt-20' id="projects">
       <div className='px-20'>
         <h1 className='text-center font-extrabold text-3xl mb-12 '>Projects<Cursor/></h1>
         <p></p>
